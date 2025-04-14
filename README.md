@@ -1,11 +1,12 @@
 # AstroTrip - IEFP
 # About the project
 
-<a href="https://atalialourenco.github.io/AstroTrip" target="_blank"><img src="https://github.com/AtaliaLourenco/AstroTrip/blob/main/Imagens/Logo-Inicio-roxo.png" target="_blank"><br><br>
-https://atalialourenco.github.io/KittyCam/
+<a href="https://atalialourenco.github.io/AstroTrip/" target="_blank"><img src="https://github.com/AtaliaLourenco/AstroTrip/blob/main/Imagens/Logo-Inicio-roxo.png" target="_blank"><br><br>
+https://atalialourenco.github.io/AstroTrip/
 
-Product Landing Page - KittyCam<br> <br>
-Personalized Product Landing Page using  Bootstrap and jQuery framework. <br> 
+Space Travel Website – AstroTrip<br> <br>
+Product landing page for a fictional space travel service. The project was developed using only HTML and CSS, and collaborative tools such as Canva (team workspace) and Visual Studio Code (shared environment). <br> 
+This group project was completed during the training course Programming Languages - Web Programming - 2025.<br> 
 (PS: All information on this site is fictitious, and the site is designed to show knowledge and personal portfolio).
 
 ## Design 
