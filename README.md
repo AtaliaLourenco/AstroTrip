@@ -10,7 +10,7 @@ This group project was completed during the training course Programming Language
 (PS: All information on this site is fictitious, and the site is designed to show knowledge and personal portfolio).
 
 ## Design 
-![Web 1](https://github.com/AtaliaLourenco/TOPSSeriesdaNetflix/blob/main/IMG-EDIT/KitCam-Landing-Page.png)
+![Web 1](https://github.com/AtaliaLourenco/AstroTrip/blob/main/Imagens/Astrotrip.png)
 
 ## Layout Web
 ![Web 1](https://github.com/AtaliaLourenco/KittyCam/blob/main/Design/Frame%201.png)
