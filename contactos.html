@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroTrip - Contato</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="Imagens/favicon.png" type="image/fa">
+
+  <style>
+    .pagina-contato {
+      background-image: url('Imagens/estrelas2.png');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+
+    .pagina-contato .contacto-section {
+      border: 4px solid #a352d9;
+      max-width: 800px;
+      margin: 0px auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      color: white;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+    .pagina-contato .contacto-section:hover {
+      box-shadow: 0 0 15px #a352d9;
+    }
+
+
+    .pagina-contato .contacto-section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow:
+    2px 0 cyan,
+   -2px 0 red;
+    }
+
+    .pagina-contato .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .pagina-contato .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .pagina-contato .form-group input,
+    .pagina-contato .form-group textarea {
+      width: 97%;
+      padding: 12px;
+      border-radius: 5px;
+      border: none;
+      background-color: rgba(255,255,255,0.1);
+      color: white;
+      font-size: 14px;
+    }
+
+    .pagina-contato .form-group textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    .pagina-contato .btn-enviar {
+      background-color: #a352d9;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .pagina-contato .btn-enviar:hover {
+      background-color: #8a39c3;
+      box-shadow: 0 0 10px #a352d9;
+    }
+
+    .pacotes-container {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .pacote {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .pacote input {
+      display: none;
+    }
+
+    .pacote img {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 2px solid transparent;
+    }
+
+    .pacote input:checked + img {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 15px rgba(163, 82, 217, 0.8);
+      border: 2px solid #a352d9;
+    }
+
+    .pacote label {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>  
+  <section class="pagina-contato">
+    
+    <header>
+      <section class="navegacao-inicio">
+        <div>
+          <a href="inicio.html"><img class="logo" src="Imagens/Logo-Inicio.png" alt="AstroTrip"></a>
+        </div>
+        <nav class="navegacao">
+          <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="sobre-nos.html">Sobre Nós</a></li>
+            <li><a href="viagens.html">Viagens</a></li>
+            <li><a href="contactos.html">Contato</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <br> 
+    <br> 
+    <br> 
+    <section class="contacto-section">
+      <h2>Entre em Contato</h2>
+      <p>Tem dúvidas, sugestões ou deseja saber mais? Preencha o formulário abaixo e entraremos em contacto consigo o mais breve possível.
+      </p>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label>Selecione o pacote (opcional):</label>
+          <div class="pacotes-container">
+            
+            <label class="pacote">
+              <input type="radio" name="destino" value="Planeta das Cores">
+              <img src="Imagens/planeta_das_cores.png" alt="Planeta das Cores"> <br>
+              <span>Planeta das Cores</span>
+            </label>
+
+            <label class="pacote">
+              <input type="radio" name="destino" value="Aventura Estelar">
+              <img src="Imagens/Aventura Estelar.png" alt="Aventura Estelar"><br>
+              <span>Aventura Estelar</span>
+            </label>
+
+            <label class="pacote">
+              <input type="radio" name="destino" value="Retiro Lunar">
+              <img src="Imagens/Retiro Lunar.png" alt="Retiro Lunar"><br>
+              <span>Retiro Lunar</span>
+            </label>
+
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </section>
+    <br> 
+    <br> 
+    <br> 
+  </section>  
+
+
+  <div class="footer-copy-divider"></div>
+  <footer id="contacto">
+    <div class="footer-logo">  
+      <a href="inicio.html"> <img src="Imagens/LOGO ASTROTRIP.png" alt="AstroTRIP"></a></div>
+    <div class="footer-column">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="viagens.html">Viagens</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Política de Privacidade</h4>
+      <ul>
+        <li><a href="#">Condições Gerais</a></li>
+        <li><a href="#">Condições de cancelamento</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Dados de Cookies</a></li>
+        <li><a href="#">Livro de Reclamações</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Redes Sociais</h4>
+      <div class="footer-social">
+        <a href="#"><img class="icones" src="Imagens/icones.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-copy">
+    © AstroTRIP - Todos os direitos das imagens pertencem aos seus respetivos criadores.  </div>
+</body>
+</html>
