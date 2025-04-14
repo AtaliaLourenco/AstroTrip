@@ -35,9 +35,11 @@ This group project was completed during the training course Programming Language
 - Bootstrap 
 - jQuery
 
-# Author
+# Author(s)
 
-Atalia Cardoso Lourenço
+Atalia Cardoso Lourenço <br> 
+*Project developed as a group assignment during the training course:
+Programming Languages - Web Programming - 2025*
 
  <a href = "mailto:thaliacardoso55@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/atalialourenco-developer-frontend/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
